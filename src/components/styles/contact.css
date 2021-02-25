@@ -1,0 +1,98 @@
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+.container{
+  border: 1px solid #04166A;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.brand {
+  text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.brand span {
+  color: #ffffff;
+}
+.user-info  img{
+  width: 500px;
+}
+
+.user-info h3,
+.user-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.user-info i{
+  color: black;
+}
+.contact form label {
+  display: block;
+}
+
+.contact form p {
+  margin: 0;
+}
+.contact form button,
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 5px;
+  border: solid 1px #04166A;
+  border-radius: 4px;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form button {
+  background: #04166A;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media all and (max-width: 670px) {
+  *{
+    font-size: 12px;
+  } 
+   .user-info img{
+    width: 100%;
+  } 
+}
+
+@media only screen and (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > * {
+    padding: 2em;
+  }
+
+  .user-info {
+    border-radius: 4px 0 0 4px;
+  }
+
+  .contact {
+    border-radius: 0 4px 4px 0;
+  }
+
+  .user-info h3,
+  .user-info ul,
+  .brand {
+    text-align: left;
+  }
+}

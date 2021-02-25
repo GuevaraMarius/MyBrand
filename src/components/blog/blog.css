@@ -1,0 +1,14 @@
+.blog-image{
+    width: 900px;
+}
+@media all and (max-width: 670px) {
+    .blog-image{
+        width: 100%;
+    }
+    .blog-logo{
+        margin-left: 50px;
+    }
+    header{
+        text-align: center;
+    }
+}
