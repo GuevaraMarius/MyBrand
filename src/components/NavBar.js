@@ -1,3 +1,4 @@
+import React from 'react'
 import '../index.css';
 import { Nav, Navbar } from 'react-bootstrap';
 export const Navigation = (home,contact,blog) => {

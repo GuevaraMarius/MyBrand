@@ -12,3 +12,11 @@
         text-align: center;
     }
 }
+@media all and (max-width: 1199px) {
+    .blog-image{
+        width: 100%;
+    }
+    .blog-logo{
+        width: 95%;
+    }
+}
