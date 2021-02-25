@@ -8,7 +8,7 @@ export const LandingPage = () => {
         <div>
         <div><Navigation/></div>
        <div> <Article/></div>
-        <Footer/>
+       <div> <Footer/></div>
         </div>
     )
 }
