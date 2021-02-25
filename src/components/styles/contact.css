@@ -96,3 +96,9 @@ ul {
     text-align: left;
   }
 }
+@media all and (max-width: 1199px) {
+  .user-info img{
+      width: 100%;
+  }
+  
+}

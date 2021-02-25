@@ -93,3 +93,18 @@ a {
   opacity: 1;
   transition: opacity 200ms;
 }
+@media all and (max-width: 1199px) {
+  .container{
+      width: 95%;
+      font-size: 24px;
+  }
+  article p {
+    margin-left: 20%;
+  }
+  article h2 {
+    margin-left: 20%;
+  }
+  .blog-logo{
+      width: 95%;
+  }
+}
