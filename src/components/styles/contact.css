@@ -1,12 +1,12 @@
-
 .container {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
+ 
 }
-.container{
-  border: 1px solid #04166A;
+.container {
+  border: 1px solid #04166a;
 }
 ul {
   list-style: none;
@@ -15,15 +15,15 @@ ul {
 
 .brand {
   text-align: center;
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .brand span {
   color: #ffffff;
 }
-.user-info  img{
+.user-info img {
   width: 500px;
 }
 
@@ -32,7 +32,7 @@ ul {
   text-align: center;
   margin: 0 0 1rem 0;
 }
-.user-info i{
+.user-info i {
   color: black;
 }
 .contact form label {
@@ -47,7 +47,7 @@ ul {
 .contact form textarea {
   width: 100%;
   padding: 5px;
-  border: solid 1px #04166A;
+  border: solid 1px #04166a;
   border-radius: 4px;
 }
 
@@ -56,7 +56,7 @@ ul {
 }
 
 .contact form button {
-  background: #04166A;
+  background: #04166a;
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
@@ -64,12 +64,12 @@ ul {
 }
 
 @media all and (max-width: 670px) {
-  *{
+  * {
     font-size: 12px;
-  } 
-   .user-info img{
+  }
+  .user-info img {
     width: 100%;
-  } 
+  }
 }
 
 @media only screen and (min-width: 700px) {
@@ -97,8 +97,7 @@ ul {
   }
 }
 @media all and (max-width: 1199px) {
-  .user-info img{
-      width: 100%;
+  .user-info img {
+    width: 100%;
   }
-  
 }
